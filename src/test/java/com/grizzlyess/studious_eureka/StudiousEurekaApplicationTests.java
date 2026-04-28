@@ -33,7 +33,7 @@ class StudiousEurekaApplicationTests {
 				.jsonPath("$[0].nome").isEqualTo(todo.getNome())
 				.jsonPath("$[0].descricao").isEqualTo(todo.getDescricao())
 				.jsonPath("$[0].realizado").isEqualTo(todo.isRealizado())
-				.jsonPath("$[0].prioridade").isEqualTo(todo.getPrioridade())
+				.jsonPath("$[0].prioridade").isEqualTo(todo.getPrioridade());
 
 
 	}
