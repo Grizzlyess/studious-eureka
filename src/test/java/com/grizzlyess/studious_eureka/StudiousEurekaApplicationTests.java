@@ -2,13 +2,13 @@ package com.grizzlyess.studious_eureka;
 
 import com.grizzlyess.studious_eureka.entity.Todo;
 import com.grizzlyess.studious_eureka.repository.TodoRepository;
-import org.junit.jupiter.api.BeforeEach;
+
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.web.reactive.server.WebTestClient;
 
-@SpringBootTest
+import org.springframework.test.web.reactive.server.WebTestClient;
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 class StudiousEurekaApplicationTests {
 
 
