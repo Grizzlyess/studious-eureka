@@ -71,7 +71,7 @@ class StudiousEurekaApplicationTests {
 
 		Todo todoSalvo = repository.save(todo);
 
-		UUID id = UUID.randomUUID();
+		var id = todoSalvo.getId();
 
 		webTestClient
 				.delete()

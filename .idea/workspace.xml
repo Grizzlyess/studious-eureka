@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf6109f1-21de-43d7-b9c0-7bfaea4c697b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/controller/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/entity/Todo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/service/TodoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grizzlyess/studious_eureka/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grizzlyess/studious_eureka/controller/TodoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/grizzlyess/studious_eureka/entity/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grizzlyess/studious_eureka/entity/Todo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +33,7 @@
     "JUnit.StudiousEurekaApplicationTests.executor": "Run",
     "JUnit.StudiousEurekaApplicationTests.testCreateTodoFailure.executor": "Run",
     "JUnit.StudiousEurekaApplicationTests.testCreateTodoSuccess.executor": "Run",
-    "JUnit.StudiousEurekaApplicationTests.testDeleteTodoSuccess.executor": "Debug",
+    "JUnit.StudiousEurekaApplicationTests.testDeleteTodoSuccess.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
