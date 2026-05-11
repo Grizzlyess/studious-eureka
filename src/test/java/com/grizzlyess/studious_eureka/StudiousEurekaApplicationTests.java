@@ -3,18 +3,29 @@ package com.grizzlyess.studious_eureka;
 import com.grizzlyess.studious_eureka.entity.Todo;
 import com.grizzlyess.studious_eureka.repository.TodoRepository;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
 import org.springframework.test.web.reactive.server.WebTestClient;
+import org.springframework.test.web.servlet.MockMvc;
+import org.springframework.test.web.servlet.client.MockMvcWebTestClient;
+
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
 class StudiousEurekaApplicationTests {
 
 	@Autowired
+	private MockMvc mockMvc;
+
 	private WebTestClient webTestClient;
+
+	@BeforeEach
+	void setUp() {
+		this.webTestClient = MockMvcWebTestClient.bindTo(mockMvc).build();
+	}
 
 	@Test
 	void testCreateTodoSuccess() {
