@@ -26,6 +26,11 @@ public class Todo {
 
     private int prioridade;
 
+
+    protected Todo() {
+    }
+
+
     public Todo(String nome, String descricao, boolean realizado, int prioridade) {
         this.nome = nome;
         this.descricao = descricao;
