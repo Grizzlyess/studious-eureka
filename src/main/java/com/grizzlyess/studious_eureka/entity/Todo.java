@@ -4,6 +4,7 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
 
 import java.util.Objects;
 import java.util.UUID;
@@ -15,13 +16,15 @@ public class Todo {
     @GeneratedValue
     private UUID id;
 
+    @NotBlank
     private String nome;
-    private String descricao;
-    private boolean realizado;
-    private int prioridade;
 
-    public Todo() {
-    }
+    @NotBlank
+    private String descricao;
+
+    private boolean realizado;
+
+    private int prioridade;
 
     public Todo(String nome, String descricao, boolean realizado, int prioridade) {
         this.nome = nome;

@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf6109f1-21de-43d7-b9c0-7bfaea4c697b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/controller/TodoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/entity/Todo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/entity/Todo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/grizzlyess/studious_eureka/service/TodoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grizzlyess/studious_eureka/controller/TodoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grizzlyess/studious_eureka/controller/TodoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/grizzlyess/studious_eureka/entity/Todo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/grizzlyess/studious_eureka/entity/Todo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +23,10 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -29,7 +38,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.StudiousEurekaApplicationTests.executor": "Run",
+    "JUnit.StudiousEurekaApplicationTests.testCreateTodoFailure.executor": "Run",
     "JUnit.StudiousEurekaApplicationTests.testCreateTodoSuccess.executor": "Run",
+    "JUnit.StudiousEurekaApplicationTests.testDeleteTodoSuccess.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -44,7 +55,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StudiousEurekaApplicationTests.testCreateTodoSuccess">
+  <component name="RunManager" selected="JUnit.StudiousEurekaApplicationTests.testDeleteTodoSuccess">
     <configuration name="StudiousEurekaApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studious-eureka" />
       <extension name="coverage">
@@ -56,6 +67,22 @@
       <option name="PACKAGE_NAME" value="com.grizzlyess.studious_eureka" />
       <option name="MAIN_CLASS_NAME" value="com.grizzlyess.studious_eureka.StudiousEurekaApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudiousEurekaApplicationTests.testCreateTodoFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studious-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grizzlyess.studious_eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.grizzlyess.studious_eureka" />
+      <option name="MAIN_CLASS_NAME" value="com.grizzlyess.studious_eureka.StudiousEurekaApplicationTests" />
+      <option name="METHOD_NAME" value="testCreateTodoFailure" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,8 +103,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudiousEurekaApplicationTests.testDeleteTodoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studious-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grizzlyess.studious_eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.grizzlyess.studious_eureka" />
+      <option name="MAIN_CLASS_NAME" value="com.grizzlyess.studious_eureka.StudiousEurekaApplicationTests" />
+      <option name="METHOD_NAME" value="testDeleteTodoSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudiousEurekaApplicationTests.testDeleteTodoSuccess" />
+        <item itemvalue="JUnit.StudiousEurekaApplicationTests.testCreateTodoFailure" />
         <item itemvalue="JUnit.StudiousEurekaApplicationTests.testCreateTodoSuccess" />
         <item itemvalue="JUnit.StudiousEurekaApplicationTests" />
       </list>

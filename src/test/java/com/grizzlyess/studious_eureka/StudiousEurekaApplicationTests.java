@@ -13,9 +13,13 @@ import org.springframework.test.web.reactive.server.WebTestClient;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.client.MockMvcWebTestClient;
 
+import java.util.UUID;
+
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureMockMvc
 class StudiousEurekaApplicationTests {
+	@Autowired
+	private TodoRepository repository;
 
 	@Autowired
 	private MockMvc mockMvc;
@@ -50,7 +54,32 @@ class StudiousEurekaApplicationTests {
 
 	@Test
 	void testCreateTodoFailure() {
+		webTestClient
+				.post()
+				.uri("/todos")
+				.bodyValue(
+						new Todo("", "", false, 0)
+				).exchange()
+				.expectStatus().isBadRequest();
 
+
+	}
+
+	@Test
+	void testDeleteTodoSuccess() {
+		var todo = new Todo("todo 1", "desc todo 1", false, 1);
+
+		Todo todoSalvo = repository.save(todo);
+
+		UUID id = UUID.randomUUID();
+
+		webTestClient
+				.delete()
+				.uri("/todos/{id}", id)
+				.exchange()
+				.expectStatus().isOk()
+				.expectBody()
+				.jsonPath("$").isArray();
 	}
 
 }

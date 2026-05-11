@@ -2,6 +2,7 @@ package com.grizzlyess.studious_eureka.service;
 
 import com.grizzlyess.studious_eureka.entity.Todo;
 import com.grizzlyess.studious_eureka.repository.TodoRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
