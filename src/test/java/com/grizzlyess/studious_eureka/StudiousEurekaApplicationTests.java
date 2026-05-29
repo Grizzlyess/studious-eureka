@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import org.springframework.boot.webmvc.test.autoconfigure.AutoConfigureMockMvc;
+import org.springframework.http.MediaType;
 import org.springframework.test.web.reactive.server.WebTestClient;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.client.MockMvcWebTestClient;
@@ -28,7 +29,9 @@ class StudiousEurekaApplicationTests {
 
 	@BeforeEach
 	void setUp() {
+
 		this.webTestClient = MockMvcWebTestClient.bindTo(mockMvc).build();
+		repository.deleteAll();
 	}
 
 	@Test
@@ -38,6 +41,7 @@ class StudiousEurekaApplicationTests {
 		webTestClient
 				.post()
 				.uri("/todos")
+				.contentType(MediaType.APPLICATION_JSON)
 				.bodyValue(todo)
 				.exchange()
 				.expectStatus().isOk()
@@ -63,6 +67,27 @@ class StudiousEurekaApplicationTests {
 				.expectStatus().isBadRequest();
 
 
+	}
+
+	@Test
+	void testUpdateTodoSuccess() {
+		var todo = new Todo("todo 1", "desc todo 1", false, 1);
+		var atualizado = new Todo("novo nome", "nova desc", true, 2);
+		atualizado.setId(todo.getId());
+		webTestClient
+				.put()
+				.uri("/todos")
+				.contentType(MediaType.APPLICATION_JSON)
+				.bodyValue(todo)
+				.exchange()
+				.expectStatus().isOk()
+				.expectBody()
+				.jsonPath("$").isArray()
+				.jsonPath("$.length()").isEqualTo(1)
+				.jsonPath("$[0].nome").isEqualTo(todo.getNome())
+				.jsonPath("$[0].descricao").isEqualTo(todo.getDescricao())
+				.jsonPath("$[0].realizado").isEqualTo(todo.isRealizado())
+				.jsonPath("$[0].prioridade").isEqualTo(todo.getPrioridade());
 	}
 
 	@Test
