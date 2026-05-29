@@ -91,6 +91,36 @@ class StudiousEurekaApplicationTests {
 	}
 
 	@Test
+	void testListTodoSuccess() {
+
+		var todo1 = new Todo("todo 1", "desc todo 1", false, 1);
+		var todo2 = new Todo("todo 2", "desc todo 2", true, 2);
+
+		repository.save(todo1);
+		repository.save(todo2);
+
+		webTestClient
+				.get()
+				.uri("/todos")
+				.accept(MediaType.APPLICATION_JSON)
+				.exchange()
+				.expectStatus().isOk()
+				.expectBody()
+				.jsonPath("$").isArray()
+				.jsonPath("$.length()").isEqualTo(2)
+				.jsonPath("$[0].nome").isEqualTo("todo 1")
+				.jsonPath("$[0].descricao").isEqualTo("desc todo 1")
+				.jsonPath("$[0].realizado").isEqualTo(false)
+				.jsonPath("$[0].prioridade").isEqualTo(1)
+				.jsonPath("$[1].nome").isEqualTo("todo 2")
+				.jsonPath("$[1].descricao").isEqualTo("desc todo 2")
+				.jsonPath("$[1].realizado").isEqualTo(true)
+				.jsonPath("$[1].prioridade").isEqualTo(2);
+
+
+	}
+
+	@Test
 	void testDeleteTodoSuccess() {
 		var todo = new Todo("todo 1", "desc todo 1", false, 1);
 

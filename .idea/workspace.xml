@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bf6109f1-21de-43d7-b9c0-7bfaea4c697b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/grizzlyess/studious_eureka/StudiousEurekaApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,61 +44,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.6076648087535413E-70" />
-      <entry key="MS500" value="1.0996110642781686E-14" />
-      <entry key="S2" value="3.238245534154485E-4" />
-      <entry key="S5" value="0.04019054635720636" />
-      <entry key="S10" value="0.2004757999290846" />
-      <entry key="S30" value="0.5852669303436703" />
-      <entry key="S60" value="0.7651035943962187" />
-      <entry key="M2" value="0.8984565051780916" />
-      <entry key="M5" value="1.7644517802215094" />
-      <entry key="M10" value="3.7639293064995245" />
-      <entry key="M15" value="5.226259334911357" />
-      <entry key="M30" value="7.484259634574402" />
-      <entry key="H1" value="9.046590000073047" />
-      <entry key="H2" value="9.968546777043288" />
-      <entry key="H4" value="10.469773043460798" />
-      <entry key="D1" value="10.909541756930846" />
-      <entry key="W1" value="10.987025298659585" />
-    </decayedCancelled>
-    <decayedSelected>
       <entry key="MS100" value="1.0" />
       <entry key="MS500" value="1.0" />
       <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0000000000000122" />
-      <entry key="S60" value="1.000000162851914" />
-      <entry key="M2" value="1.0006491040916219" />
-      <entry key="M5" value="1.100158017223904" />
-      <entry key="M10" value="1.5456500239225421" />
-      <entry key="M15" value="1.9620368012969613" />
-      <entry key="M30" value="2.6979448800952675" />
-      <entry key="H1" value="3.2566464135702202" />
-      <entry key="H2" value="3.601821967374399" />
-      <entry key="H4" value="3.7938025079577775" />
-      <entry key="D1" value="3.9646025619746124" />
-      <entry key="W1" value="3.9949173764779857" />
+      <entry key="S5" value="1.000000000607319" />
+      <entry key="S10" value="1.0000384171126053" />
+      <entry key="S30" value="1.0679925559078554" />
+      <entry key="S60" value="1.4502369192352558" />
+      <entry key="M2" value="2.3242997462012083" />
+      <entry key="M5" value="7.861287278650297" />
+      <entry key="M10" value="18.847145772204396" />
+      <entry key="M15" value="26.673352816139325" />
+      <entry key="M30" value="38.93949314217578" />
+      <entry key="H1" value="47.68421089672782" />
+      <entry key="H2" value="52.96852032674622" />
+      <entry key="H4" value="55.88323293945752" />
+      <entry key="D1" value="58.46579943944099" />
+      <entry key="W1" value="58.92331500102535" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="4.58294279313997E-24" />
+      <entry key="MS500" value="2.148962748584107E-5" />
+      <entry key="S2" value="0.06808590614690993" />
+      <entry key="S5" value="0.341368063675947" />
+      <entry key="S10" value="0.5842671167162731" />
+      <entry key="S30" value="0.8359952611336773" />
+      <entry key="S60" value="0.9143928624929072" />
+      <entry key="M2" value="0.9708703610507488" />
+      <entry key="M5" value="1.4013210869893686" />
+      <entry key="M10" value="2.4147293750266576" />
+      <entry key="M15" value="3.261405496575628" />
+      <entry key="M30" value="4.82443503124947" />
+      <entry key="H1" value="6.116772673301331" />
+      <entry key="H2" value="6.9673993198267645" />
+      <entry key="H4" value="7.458338422634497" />
+      <entry key="D1" value="7.905952233427769" />
+      <entry key="W1" value="7.986468821579491" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="3.428820497407218E-4" />
-      <entry key="MS500" value="0.20278178889426116" />
-      <entry key="S2" value="0.6712026312919237" />
-      <entry key="S5" value="0.881978716413788" />
-      <entry key="S10" value="1.0949633401973882" />
-      <entry key="S30" value="1.5295036919414207" />
-      <entry key="S60" value="1.7323518403622986" />
-      <entry key="M2" value="1.8812132277151428" />
-      <entry key="M5" value="2.8554817442996847" />
-      <entry key="M10" value="5.301125763675281" />
-      <entry key="M15" value="7.180170724673528" />
-      <entry key="M30" value="10.175895142520478" />
-      <entry key="H1" value="12.299215406304668" />
-      <entry key="H2" value="13.568088422688891" />
-      <entry key="H4" value="14.262360042269348" />
-      <entry key="D1" value="14.873930532529846" />
-      <entry key="W1" value="14.981911849819177" />
+      <entry key="MS100" value="4.3100732240754615E-4" />
+      <entry key="MS500" value="0.21227579737301686" />
+      <entry key="S2" value="0.7150696378126823" />
+      <entry key="S5" value="1.1218550885095269" />
+      <entry key="S10" value="1.440667733021113" />
+      <entry key="S30" value="1.842955545066097" />
+      <entry key="S60" value="2.3287796169889923" />
+      <entry key="M2" value="3.273352823448299" />
+      <entry key="M5" value="9.25025582984497" />
+      <entry key="M10" value="21.252086297702967" />
+      <entry key="M15" value="29.925704780112877" />
+      <entry key="M30" value="43.75656833659543" />
+      <entry key="H1" value="53.79596550683087" />
+      <entry key="H2" value="59.93294143660607" />
+      <entry key="H4" value="63.33994269614779" />
+      <entry key="D1" value="66.37145863373148" />
+      <entry key="W1" value="66.90974139973545" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -115,6 +114,7 @@
     "JUnit.StudiousEurekaApplicationTests.testCreateTodoFailure.executor": "Run",
     "JUnit.StudiousEurekaApplicationTests.testCreateTodoSuccess.executor": "Run",
     "JUnit.StudiousEurekaApplicationTests.testDeleteTodoSuccess.executor": "Run",
+    "JUnit.StudiousEurekaApplicationTests.testListTodoSuccess.executor": "Run",
     "JUnit.StudiousEurekaApplicationTests.testUpdateTodoSuccess.executor": "Run",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -132,7 +132,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.StudiousEurekaApplicationTests">
+  <component name="RunManager" selected="JUnit.StudiousEurekaApplicationTests.testListTodoSuccess">
     <configuration name="StudiousEurekaApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studious-eureka" />
       <extension name="coverage">
@@ -144,22 +144,6 @@
       <option name="PACKAGE_NAME" value="com.grizzlyess.studious_eureka" />
       <option name="MAIN_CLASS_NAME" value="com.grizzlyess.studious_eureka.StudiousEurekaApplicationTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudiousEurekaApplicationTests.testCreateTodoFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studious-eureka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.grizzlyess.studious_eureka.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.grizzlyess.studious_eureka" />
-      <option name="MAIN_CLASS_NAME" value="com.grizzlyess.studious_eureka.StudiousEurekaApplicationTests" />
-      <option name="METHOD_NAME" value="testCreateTodoFailure" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,6 +180,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StudiousEurekaApplicationTests.testListTodoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studious-eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.grizzlyess.studious_eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.grizzlyess.studious_eureka" />
+      <option name="MAIN_CLASS_NAME" value="com.grizzlyess.studious_eureka.StudiousEurekaApplicationTests" />
+      <option name="METHOD_NAME" value="testListTodoSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudiousEurekaApplicationTests.testUpdateTodoSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studious-eureka" />
       <extension name="coverage">
@@ -214,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudiousEurekaApplicationTests.testListTodoSuccess" />
         <item itemvalue="JUnit.StudiousEurekaApplicationTests" />
         <item itemvalue="JUnit.StudiousEurekaApplicationTests.testUpdateTodoSuccess" />
         <item itemvalue="JUnit.StudiousEurekaApplicationTests.testCreateTodoSuccess" />
         <item itemvalue="JUnit.StudiousEurekaApplicationTests.testDeleteTodoSuccess" />
-        <item itemvalue="JUnit.StudiousEurekaApplicationTests.testCreateTodoFailure" />
       </list>
     </recent_temporary>
   </component>
